@@ -1,0 +1,45 @@
+{
+  "status": "success",
+  "statusCode": 200,
+  "data": [
+    {
+      "url": "https://example.com/news/123",
+      "date": "20250420",
+      "matchedItem": [
+        {
+          "instrumentId": "IRO1BTEJ0001",
+          "symbol": "وتجارت",
+          "Confidence": 0.987
+        },
+        {
+          "instrumentId": "IRO1BMLT0001",
+          "symbol": "وبملت",
+          "Confidence": 0.932
+        }
+      ]
+    },
+    {
+      "url": "https://example.com/news/124",
+      "date": "20250420",
+      "matchedItem": [
+        {
+          "instrumentId": "IRO1BTEJ0001",
+          "symbol": "وتجارت",
+          "Confidence": 0.987
+        },
+        {
+          "instrumentId": "IRO1BMLT0001",
+          "symbol": "وبملت",
+          "Confidence": 0.932
+        }
+      ]
+    }
+  ]
+  "errors": {
+    "code": null,
+    "details": [],
+    "suggestion": null
+  },
+  "timestamp": "2025-04-20T16:19:45.334+03:30",
+  "requestId": "edc982db-d1ab-4ac5-89d7-137b4370d381"
+}

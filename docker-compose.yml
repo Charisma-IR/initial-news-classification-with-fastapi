@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  fastapi-ner-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fastapi-ner-service
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+    networks:
+      - fastapi_network
+
+networks:
+  fastapi_network:
+    driver: bridge

@@ -1,0 +1,36 @@
+{
+  "requests": [
+    {
+      "status": "request",
+      "requestId": "edc982db-d1ab-4ac5-89d7-137b4370d381",
+      "timestamp": "2025-04-20T16:18:33.444+03:30",
+      "data": {
+        "news": {
+          "content": "بانک ملت اعلام کرد که ...",
+          "Url": "https://example.com/news/123",
+          "DateKey": "20250420"
+        }
+      },
+      "metadata": {
+        "source": "nifi",
+        "priority": "normal"
+      }
+    },
+    {
+      "status": "request",
+      "requestId": "c4b7a5b4-d1c3-4a69-b7b8-b12d2256dbcf",
+      "timestamp": "2025-04-20T16:18:33.444+03:30",
+      "data": {
+        "news": {
+          "content": "شایعاتی درباره ...",
+          "Url": "https://example.com/news/124",
+          "DateKey": "20250421"
+        }
+      },
+      "metadata": {
+        "source": "nifi",
+        "priority": "high"
+      }
+    }
+  ]
+}
