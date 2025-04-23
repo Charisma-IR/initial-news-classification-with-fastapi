@@ -14,7 +14,7 @@ This project deploys a transformer-based Named Entity Recognition (NER) model us
 
 ```bash
 git clone https://github.com/mrkhedri/initial-news-classification-with-fastapi.git
-cd fastapi-ner-service
+cd initial-news-classification-with-fastapi
 ```
 
 ### 2. Set Up the Environment
