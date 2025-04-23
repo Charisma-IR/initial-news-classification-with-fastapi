@@ -13,7 +13,7 @@ This project deploys a transformer-based Named Entity Recognition (NER) model us
 ### 1. Clone the Repository
 
 ```bash
-git clone https://your-repository-url.git
+git clone https://github.com/mrkhedri/initial-news-classification-with-fastapi.git
 cd fastapi-ner-service
 ```
 
